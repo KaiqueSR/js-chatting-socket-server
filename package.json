@@ -1,0 +1,29 @@
+{
+  "name": "js-chatting-socket-server",
+  "version": "1.0.0",
+  "description": "Socket.io Server for jsChatting",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --ext js,json",
+    "lint:fix": "eslint --fix --ext .js src/",
+    "lint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiqueSR/js-chatting-socket-server.git"
+  },
+  "author": "KaiqueSR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiqueSR/js-chatting-socket-server/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
